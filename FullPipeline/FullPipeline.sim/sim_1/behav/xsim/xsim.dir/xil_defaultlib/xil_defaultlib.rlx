@@ -1,0 +1,8 @@
+0.7
+2020.2
+Sep  5 2024
+15:23:16
+C:/Users/aayus/FPGA_projects/FullPipeline/FullPipeline.sim/sim_1/behav/xsim/glbl.v,1708598507,verilog,,,,glbl,,uvm,,,,,,
+,,,,,,TB_ALU,,,,,,,,
+C:/Users/aayus/FPGA_projects/FullPipeline/FullPipeline.srcs/sources_1/new/ALU.sv,1747608556,systemVerilog,,C:/Users/aayus/FPGA_projects/FullPipeline/FullPipeline.srcs/sim_1/new/TB_ALU.sv,,ALU,,uvm,,,,,,
+C:/Users/aayus/FPGA_projects/FullPipeline/FullPipeline.srcs/sources_1/new/Parms.sv,1747616834,systemVerilog,C:/Users/aayus/FPGA_projects/FullPipeline/FullPipeline.srcs/sim_1/new/TB_ALU.sv;C:/Users/aayus/FPGA_projects/FullPipeline/FullPipeline.srcs/sources_1/new/ALU.sv,C:/Users/aayus/FPGA_projects/FullPipeline/FullPipeline.srcs/sources_1/new/ALU.sv,,$unit_Parms_sv_3291820325;parms,,uvm,,,,,,
