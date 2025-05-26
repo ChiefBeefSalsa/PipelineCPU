@@ -1,37 +1,30 @@
 `timescale 1ns / 1ps
-//////////////////////////////////////////////////////////////////////////////////
-// Company: 
-// Engineer: 
-// 
-// Create Date: 05/25/2025 11:20:12 PM
-// Design Name: 
-// Module Name: TB_ALU
-// Project Name: 
-// Target Devices: 
-// Tool Versions: 
-// Description: 
-// 
-// Dependencies: 
-// 
-// Revision:
-// Revision 0.01 - File Created
-// Additional Comments:
-// 
-//////////////////////////////////////////////////////////////////////////////////
 
 
 module TB_ALU;
+    logic [DATABUS-1:0] input1;
+    logic [DATABUS-1:0] input2;
+    logic [FN-1:0] fn;
+    logic [DATABUS-1:0] output1;
+    logic zeroFlag;
+
 
     ALU dut(
-    .input1(),
-    .input2(),
-    .aluFunction(),
-    .output1(),
-    .zeroFlag()
+    .input1(input1),
+    .input2(input2),
+    .aluFunction(fn),
+    .output1(output1),
+    .zeroFlag(zeroFlag)
     );
-
+    
     initial begin
-        $display("ff");
+        $display("SART SIMULATION");
+        #10;
+        input1 = 2;
+        input2 = 2;
+        fn = 1;
+        #10;
+        
         $finish;
         
     end
